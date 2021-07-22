@@ -3,7 +3,6 @@
     "name": "index",
     "path": "/",
     "component": "C:\\\\xampp\\\\htdocs\\\\java-projects\\\\Spring-Vuejs-Swagegr-Docker-API\\\\frontend\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_5f147203"
+    "chunkName": "pages/index"
   }
 ]

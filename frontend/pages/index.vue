@@ -1,7 +1,12 @@
 <<template>
-    <div>
-        <h1>Hello world</h1>
-    </div>
+   <v-row>
+       <v-col>
+           <Form/>
+       </v-col>
+       <v-col>
+           <Table/>
+       </v-col>
+   </v-row>
 </template>
 
 <<script>
