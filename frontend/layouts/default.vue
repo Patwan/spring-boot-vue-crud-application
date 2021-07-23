@@ -8,7 +8,9 @@
                     </v-app-bar-title>
                 </v-app-bar>
                 <v-container justify="center" align="center">
-                    <Nuxt/>
+                    <client-only>
+                        <Nuxt/>
+                    </client-only>
                 </v-container>
             </v-main>
         </v-app>

@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin
+@RequestMapping("/users")
 public class UserController {
 
     @Autowired
@@ -35,7 +37,7 @@ public class UserController {
         return userRepository.save(olduser);
     }
 
-    @GetMapping("/{id}")
+    @DeleteMapping("/{id}")
     Integer destroy(@PathVariable int id){
         userRepository.deleteById(id);
         return id;
