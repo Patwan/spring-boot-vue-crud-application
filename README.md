@@ -1,6 +1,6 @@
 # Spring Boot CRUD Application
 A full stack **CRUD library web application** using Nuxtjs & Spring Boot framework.
-The data is stored in a H2 database.
+The application is also containerized using docker and the RDBMS is MySQL.
 
 # Backend Dependencies
 As seen in the pom.xml file.
